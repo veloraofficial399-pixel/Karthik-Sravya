@@ -41,6 +41,7 @@ let d = '135f969c-2fe5-4cda-b5da-3705554f4082',
   y = '#6b5646',
   x = '#7d5f2e',
   b = '#a07c45',
+  mr = '#7a1f2e',
   v = '#efe4d6',
   j = "'Cormorant Garamond', Georgia, serif",
   k = "'Pinyon Script', 'Cormorant Garamond', cursive",
@@ -123,7 +124,7 @@ let N = (a) => Math.round(100 * a) / 100,
       tone: e % I.length,
     }))),
   L = `
-@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Cormorant+Garamond:wght@700&display=swap');
 .aa-root,.aa-cover{--u:min(1vw,.4618vh)}
 @supports (height:1svh){.aa-root,.aa-cover{--u:min(1vw,.4618svh)}}
 .aa-root{background:${v};color:${u};overflow-x:hidden;-webkit-tap-highlight-color:transparent}
@@ -1765,9 +1766,9 @@ export default function () {
                     children: 'Together with their family',
                   }),
                   (0, n.jsx)('div', { style: { height: w(3) } }),
-                  (0, n.jsx)(H, { text: 'Karthik', size: 7.2, delay: 2.8 }),
+                  (0, n.jsx)(H, { text: 'Karthik', size: 7.2, delay: 2.8, weight: 700, color: mr }),
                   (0, n.jsx)(X, { size: 9, delay: 3.4, style: { margin: `${w(0.2)} 0` }, children: 'and' }),
-                  (0, n.jsx)(H, { text: 'Sravya', size: 7.2, delay: 3.8 }),
+                  (0, n.jsx)(H, { text: 'Sravya', size: 7.2, delay: 3.8, weight: 700, color: mr }),
                   (0, n.jsx)('div', { style: { height: w(3.4) } }),
                   (0, n.jsxs)(B, {
                     size: 2.6,
@@ -1998,7 +1999,7 @@ export default function () {
                     ],
                   }),
                   (0, n.jsx)(G, { w: 14, delay: 1.9, gap: 3 }),
-                  (0, n.jsx)(X, { size: 7, delay: 2.2, children: 'Karthik & Sravya' }),
+                  (0, n.jsx)(X, { size: 7, delay: 2.2, color: mr, style: { fontWeight: 400, WebkitTextStroke: `${w(0.24)} ${mr}` }, children: 'Karthik & Sravya' }),
                   (0, n.jsx)(B, {
                     size: 2.6,
                     track: 0.46,
