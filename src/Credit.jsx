@@ -2,7 +2,7 @@
 export default function Credit() {
   return (
     <a
-      href="https://velora-invitations.velorain.workers.dev"
+      href="https://velora-invitations.velorain.workers.dev/templates"
       target="_blank"
       rel="noreferrer"
       aria-label="Crafted by Velora"
