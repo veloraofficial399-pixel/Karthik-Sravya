@@ -1854,7 +1854,7 @@ export default function () {
                     (0, n.jsx)(PF, { src: p.groom, alt: 'Karthik', kind: 'arch', w: 27, ratio: 1.5, rot: -2.4, delay: 0.7, pos: '50% 30%' }),
                     (0, n.jsx)(PF, { src: p.bride, alt: 'Sravya', kind: 'arch', w: 27, ratio: 1.5, rot: 2.4, delay: 1.2, pos: '50% 28%', style: { marginTop: w(7) } }),
                   ] }),
-                  (0, n.jsx)(PF, { src: p.childhood, alt: 'Little Karthik and Sravya', kind: 'round', w: 52, ratio: 0.68, rot: -1.2, delay: 1.9, pos: '50% 50%', style: { marginTop: w(-2) } }),
+                  (0, n.jsx)(PF, { src: p.childhood, alt: 'Little Karthik and Sravya', kind: 'round', w: 52, ratio: 0.68, rot: -1, delay: 1.9, pos: '50% 50%', style: { marginTop: w(3.5) } }),
                   (0, n.jsx)(O, { size: 3.9, delay: 2.4, color: u, style: { marginTop: w(3), lineHeight: 1.55 }, children: ['Two little worlds, two different journeys,', (0, n.jsx)('br', {}), 'one beautiful forever.', (0, n.jsx)('br', {}), 'We’re getting hitched! ❤️'] }),
                 ],
               }),
